@@ -1,22 +1,28 @@
 module.exports = {
   siteMetadata: {
-    title: "housevesting",
+    title: 'housevesting',
   },
   plugins: [
-    "gatsby-plugin-postcss",
+    'gatsby-plugin-postcss',
     {
-      resolve: "gatsby-plugin-google-analytics",
+      resolve: 'gatsby-plugin-google-analytics',
       options: {
-        trackingId: "267795568",
+        trackingId: '267795568',
       },
     },
-    "gatsby-plugin-react-helmet",
-    "gatsby-plugin-sitemap",
+    'gatsby-plugin-react-helmet',
+    'gatsby-plugin-sitemap',
     {
-      resolve: "gatsby-plugin-manifest",
+      resolve: 'gatsby-plugin-manifest',
       options: {
-        icon: "src/images/icon.png",
+        icon: 'src/images/calculator.png',
+      },
+    },
+    {
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        pathToConfigModule: `src/utils/typography`,
       },
     },
   ],
-};
+}
