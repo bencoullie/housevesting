@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'housevesting',
+    siteUrl: 'https://www.housevesting.com',
   },
   plugins: [
     'gatsby-plugin-postcss',
